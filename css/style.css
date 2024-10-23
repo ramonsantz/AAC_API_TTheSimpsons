@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 10px 1px 10px rgb(150, 150, 11);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#pesquisa {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#botaoBusca {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#botaoBusca:hover {
+    background-color: #ff9900;
+}
+
+#cardPersonagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caixa_produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.caixa_titulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caixa_imagem img {
+    width: 100%; /* Ajusta a imagem para caber no card */
+    border-radius: 5px;
+}
+
+.caixa_texto {
+    font-size: 14px;
+    color: #666;
+}
